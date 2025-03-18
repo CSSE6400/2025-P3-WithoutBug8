@@ -18,7 +18,7 @@
 │   		├── todo.py        # 定义数据库表的模型，提供数据库交互的方法
 │   ├── views
 │   		├── routes.py      # 路由，处理todo相关的HTTP请求，并和数据库交互
-│   ├── _init_.py					 # 全部应用的初始化文件，初始化并配置flask应用，初始化数据库，配置路由生效
+│   ├── _init_.py				 # 全部应用的初始化文件，初始化并配置flask应用，初始化数据库，配置路由生效
 │── .dockerignore          # Docker 构建时忽略的文件
 │── docker-compose.yml     # Docker Compose 配置文件（定义数据库和应用容器）
 │── Dockerfile             # 用于构建 Flask 应用的 Docker 镜像
