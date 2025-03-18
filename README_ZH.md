@@ -49,7 +49,7 @@
 
 1. 为什么我启动了Docker中的Flask和PostgreSQL这两个服务，我可以通过本机的endpoint.http对容器中的代码进行测试呢？
 
-   - 首先endpoint.http文件发送请求指向http://localhost:6400；与此同时Docker的docker-compose.yml文件中配置ports: - "6400:6400" **让容器内部的 6400 端口映射到本机的 6400 端口**
+   - 首先endpoint.http文件发送请求指向http://localhost:6400 ；与此同时Docker的docker-compose.yml文件中配置ports: - "6400:6400" **让容器内部的 6400 端口映射到本机的 6400 端口**
 
      ```python
      '''
